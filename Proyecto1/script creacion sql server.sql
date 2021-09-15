@@ -98,16 +98,3 @@ CREATE TABLE "Fecha"(
 );
 
 
-
-use seminariodos201807120;
-truncate table cliente;
-truncate table fecha;
-truncate table producto;
-truncate table proveedor;
-truncate table region;
-truncate table sucursal;
-truncate table vendedor;
-
-use [database-1];
-truncate table temporal;
-truncate table temporal2;

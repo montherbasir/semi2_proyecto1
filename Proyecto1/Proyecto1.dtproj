@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-4DI9VUSN</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlSkoezD0jUatFSbFyO0IPgAAAAACAAAAAAAQZgAAAAEAACAAAAA8i18xXLt0ncPXLpx/j3AeqCuVjRC9vPsNpw9xsRkv1AAAAAAOgAAAAAIAACAAAACGoAm/YCBfds/jbuxYoCYOJQLxmZPhC+a+UUwhtYeIupAAAADVjdDiHtgVSRfe/iVF+hSewsB9uAx6djVgsEsN3lxf0cpu+M1m79ctzqPdHaCgddtXnD1J/bbrQsMnX9uBGeApyX3m1+27PmYrB0cbGJxB232zRf4LOD/Kolz3Sh/e2/uxxaX2B+aEqjCuoedipufNGXo5vfrZvHRWjEuS0MH9/kASo2JaLuABrs1TxdguQQ5AAAAAriYKUKVTslIx3+q8cgsKT8glC8H2fFJhO3KVbXmyzibffM09gWYMG6knyyFffF75dixyE1iAQn6AgzOMraYT3w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlSkoezD0jUatFSbFyO0IPgAAAAACAAAAAAAQZgAAAAEAACAAAACNuXIb5NFJ4frePOfxvDfc+I5agIguAaahFimu5Ddp7AAAAAAOgAAAAAIAACAAAAB9lx0HEZSJ7hf+vlzXeVb5q09RVel63OungJCHQVmW+JAAAADje/QNkTAYQJIIyZVhd+vBgVzqx0+86WBUP588kkhKmm/2EeVtrN94wLkjj2+SSoZiph2vgGjB/JOiULw/oVQl7ZfbKqRyCKJrM0x803HTvKfB+I2u7tDKh/KHOVx6RZVYY3bM5pkEpH2r6n0xhl7RwJ6VJzCfRidRai16VWbvG4PwY40P8UMqMzgf8ymYlcxAAAAAykvZ0VLVMQKkFe3fhUPlyg4UKFYbpTrJ+DoT03h+1oFo7Lzzs+9TOPn11zmaeQloETx+a3UUEnuqKBTnueb1NA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">111</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">129</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BC54BDBD-6953-4FDD-B875-CD877EC3E29C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{269629E2-EF74-409D-BF62-36A6493BD569}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -778,6 +778,36 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.limpiar.sql.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.limpiar.sql.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\momob\OneDrive\Documentos\GitHub\semi2_proyecto1\Proyecto1\limpiar.sql</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
