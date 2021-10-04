@@ -6,10 +6,52 @@
     <Name>SEMI2_Fase2.database</Name>
     <FullPath>SEMI2_Fase2.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Seminariodos201807120.cube</Name>
+      <FullPath>Seminariodos201807120.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Seminariodos201807120.partitions</Name>
+          <FullPath>Seminariodos201807120.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Fecha.dim</Name>
+      <FullPath>Fecha.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Producto.dim</Name>
+      <FullPath>Producto.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vendedor.dim</Name>
+      <FullPath>Vendedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Region.dim</Name>
+      <FullPath>Region.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sucursal.dim</Name>
+      <FullPath>Sucursal.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cliente.dim</Name>
+      <FullPath>Cliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Proveedor.dim</Name>
+      <FullPath>Proveedor.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Seminariodos201807120.ds</Name>
-      <FullPath>Seminariodos201807120.ds</FullPath>
+      <Name>source.ds</Name>
+      <FullPath>source.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -26,7 +68,7 @@
           <ConfigurationSetting>
             <Id>Seminariodos201807120</Id>
             <Name>Seminariodos201807120</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-4DI9VUSN;Integrated Security=SSPI;Initial Catalog=seminariodos201807120</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=seminariodos201807120</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
