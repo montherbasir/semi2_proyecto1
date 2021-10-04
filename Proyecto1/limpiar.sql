@@ -22,14 +22,14 @@ GO
 
 CREATE TABLE [dbo].[Venta](
 	[CodFecha] [int] NOT NULL FOREIGN KEY REFERENCES Fecha(CodFecha) ,
-	[CodCliente] [nvarchar](5) NOT NULL FOREIGN KEY REFERENCES Cliente(CodCliente),
+	[CodCliente] INT NOT NULL FOREIGN KEY REFERENCES Cliente(Id),
 	[CodRegion] [int] NOT NULL FOREIGN KEY REFERENCES Region(CodRegion),
-	[SodSuSursal] [nvarchar](5) NOT NULL FOREIGN KEY REFERENCES Sucursal(SodSuSursal),
-	[CodVendedor] [nvarchar](5) NOT NULL FOREIGN KEY REFERENCES Vendedor(CodVendedor),
-	[CodProducto] [nvarchar](50) NOT NULL FOREIGN KEY REFERENCES Producto(Codproducto),
+	[SodSuSursal] INT NOT NULL FOREIGN KEY REFERENCES Sucursal(Id),
+	[CodVendedor] INT NOT NULL FOREIGN KEY REFERENCES Vendedor(Id),
+	[CodProducto] INT NOT NULL FOREIGN KEY REFERENCES Producto(Id),
 	[Unidades] [int] NULL,
 	[PrecioUnitario] [decimal](15, 2) NULL,
- CONSTRAINT [PK_Venta] PRIMARY KEY CLUSTERED 
+ CONSTRAINT [PK_Venta] PRIMARY KEY CLUSTERED
 (
 	[CodFecha] ASC,
 	[CodCliente] ASC,
@@ -45,10 +45,10 @@ GO
 
 CREATE TABLE [dbo].[Compra](
 	[CodFecha] [int] NOT NULL FOREIGN KEY REFERENCES Fecha(CodFecha) ,
-	[CodProveedor] [nvarchar](5) NOT NULL FOREIGN KEY REFERENCES Proveedor(CodProveedor),
+	[CodProveedor] INT NOT NULL FOREIGN KEY REFERENCES Proveedor(Id),
 	[CodRegion] [int] NOT NULL FOREIGN KEY REFERENCES Region(CodRegion),
-	[SodSuSursal] [nvarchar](5) NOT NULL FOREIGN KEY REFERENCES Sucursal(SodSuSursal),
-	[CodProducto] [nvarchar](50) NOT NULL FOREIGN KEY REFERENCES Producto(Codproducto),
+	[SodSuSursal] INT NOT NULL FOREIGN KEY REFERENCES Sucursal(Id),
+	[CodProducto] INT NOT NULL FOREIGN KEY REFERENCES Producto(Id),
 	[Unidades] [int] NULL,
 	[PrecioUnitario] [decimal](15, 2) NULL,
  CONSTRAINT [PK_Compra] PRIMARY KEY CLUSTERED 

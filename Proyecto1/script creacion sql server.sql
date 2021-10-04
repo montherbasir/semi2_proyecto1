@@ -50,8 +50,11 @@ CREATE TABLE "temporal2" (
 select * from temporal2;
 
 
+
+use seminariodos201807120;
 CREATE TABLE  "Cliente" (
-  "CodCliente" nvarchar(5) PRIMARY KEY ,
+"Id" INT IDENTITY(1,1) PRIMARY KEY,
+  "CodCliente" nvarchar(5),
   "NombreCliente" nvarchar(100) DEFAULT NULL,
   "TipoCliente" nvarchar(15) DEFAULT NULL,
   "DireccionCliente" nvarchar(200) DEFAULT NULL,
@@ -59,13 +62,15 @@ CREATE TABLE  "Cliente" (
 );
 
 CREATE TABLE  "Vendedor" (
-  "CodVendedor" nvarchar(5) PRIMARY KEY,
+"Id" INT IDENTITY(1,1) PRIMARY KEY,
+  "CodVendedor" nvarchar(5) ,
   "NombreVendedor" nvarchar(100) DEFAULT NULL,
   "Vacacionista" tinyint DEFAULT NULL,
 );
 
 CREATE TABLE  "Producto" (
-  "CodProducto" nvarchar(50) PRIMARY KEY,
+"Id" INT IDENTITY(1,1) PRIMARY KEY,
+  "CodProducto" nvarchar(50),
   "NombreProducto" nvarchar(200) DEFAULT NULL,
   "MarcaProducto" nvarchar(50) DEFAULT NULL,
   "Categoria" nvarchar(50) DEFAULT NULL,
@@ -78,13 +83,15 @@ CREATE TABLE  "Region" (
 );
 
 CREATE TABLE  "Sucursal" (
-  "SodSuSursal" nvarchar(5) PRIMARY KEY,
+"Id" INT IDENTITY(1,1) PRIMARY KEY,
+  "SodSuSursal" nvarchar(5),
   "NombreSucursal" nvarchar(50) DEFAULT NULL,
   "DireccionSucursal" nvarchar(200) DEFAULT NULL,
 );
 
 CREATE TABLE "Proveedor" (
-  "CodProveedor" nvarchar(5)  PRIMARY KEY,
+"Id" INT IDENTITY(1,1) PRIMARY KEY,
+  "CodProveedor" nvarchar(5),
   "NombreProveedor" nvarchar(100)  DEFAULT NULL,
   "DireccionProveedor" nvarchar(200)  DEFAULT NULL,
   "NumeroProveedor" nvarchar(8)  DEFAULT NULL,
@@ -96,5 +103,3 @@ CREATE TABLE "Fecha"(
   "FechaText" varchar(8),
   "FechaDate" DATE
 );
-
-
