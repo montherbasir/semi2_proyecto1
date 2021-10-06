@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -33,56 +33,63 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6j/X2GjHciYwt3IOf/XirxZeVE0=3/10/2021 21:07:003/10/2021 19:33:25</TimeStamp>
-        <ID>
-          <String>Fecha</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Dnw3I83HeAs9PUKFxETiltD58jE=3/10/2021 20:14:143/10/2021 19:33:25</TimeStamp>
-        <ID>
-          <String>Producto</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>NjScvo4FkA8M1nutaIShhiJ1D5k=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
-        <ID>
-          <String>Vendedor</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dWsz8e/9dKhHg2T31PkE1JXyx1w=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
-        <ID>
-          <String>Region</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>kavskQIfJrty8wGQTyB100q292E=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
+        <TimeStamp>zOJ/uv8x0aBCN7Mb9KNcgBQGy7Q=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Sucursal</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Rv88Dy+TjPqQKteaceXDxgiUJHY=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
+        <TimeStamp>Vh6CE1nVwsEc45uYtxvmTuD43Ao=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <ID>
+          <String>Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Nv1VZwiVtahzmvK9dExyXiAVXGg=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <ID>
+          <String>Vendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lAyGKuZATi0dUkYjySN6A/A5rG8=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <ID>
+          <String>Fecha</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WgBpQo6qkAXXUMNS3Y9xXu7pvGY=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Cliente</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>80xDEQ7V2f37DB0gf9lZb+d+0Uo=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
+        <TimeStamp>dNZFxD8Dp7zewe9KIIE2ymzsZa0=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <ID>
+          <String>Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p6S7XSh3BfcvRApnswePYViBa54=5/10/2021 19:51:535/10/2021 19:51:53</TimeStamp>
         <ID>
           <String>Proveedor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ad6S7aQskqLGF/2K2Ct/CZQwxio=3/10/2021 21:07:003/10/2021 19:33:253e4i46AMTmjmHXq9FAy/UIfLLQU=3/10/2021 19:33:263/10/2021 19:33:25</TimeStamp>
+        <TimeStamp>EVyFa2cExwx3GoLDLYMlQoa3Zjc=5/10/2021 19:51:285/10/2021 19:51:288mOI2fya6QrgWvsciiuwqMyARzY=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <ID>
+          <String>ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>En27d1nlLX16zVSvKFnqt8hiVSM=5/10/2021 19:52:015/10/2021 19:51:53nNRHQ7Rj04g4T4ZX3DQdlKqSsYU=5/10/2021 19:51:535/10/2021 19:51:53</TimeStamp>
         <ID>
           <String>Seminariodos201807120</String>
         </ID>
@@ -99,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-10-04T03:07:53.706667Z</LastDeployed>
+  <LastDeployed>2021-10-06T01:52:08.466667Z</LastDeployed>
 </DeploymentSnapshot>

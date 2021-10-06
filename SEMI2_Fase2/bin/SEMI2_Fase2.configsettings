@@ -12,22 +12,22 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Fecha</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Producto</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Vendedor</ID>
+        <ID>Sucursal</ID>
       </Dimension>
       <Dimension>
         <ID>Region</ID>
       </Dimension>
       <Dimension>
-        <ID>Sucursal</ID>
+        <ID>Vendedor</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fecha</ID>
       </Dimension>
       <Dimension>
         <ID>Cliente</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Producto</ID>
       </Dimension>
       <Dimension>
         <ID>Proveedor</ID>
@@ -35,7 +35,7 @@
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Seminariodos201807120</ID>
+        <ID>ventas</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Venta</ID>
@@ -45,6 +45,11 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Seminariodos201807120</ID>
+        <MeasureGroups>
           <MeasureGroup>
             <ID>Compra</ID>
             <Partitions>

@@ -8,40 +8,50 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Seminariodos201807120.cube</Name>
-      <FullPath>Seminariodos201807120.cube</FullPath>
+      <Name>ventas.cube</Name>
+      <FullPath>ventas.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Seminariodos201807120.partitions</Name>
-          <FullPath>Seminariodos201807120.partitions</FullPath>
+          <Name>ventas.partitions</Name>
+          <FullPath>ventas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>compras.cube</Name>
+      <FullPath>compras.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>compras.partitions</Name>
+          <FullPath>compras.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Fecha.dim</Name>
-      <FullPath>Fecha.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Producto.dim</Name>
-      <FullPath>Producto.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Vendedor.dim</Name>
-      <FullPath>Vendedor.dim</FullPath>
+      <Name>Sucursal.dim</Name>
+      <FullPath>Sucursal.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Region.dim</Name>
       <FullPath>Region.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Sucursal.dim</Name>
-      <FullPath>Sucursal.dim</FullPath>
+      <Name>Vendedor.dim</Name>
+      <FullPath>Vendedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fecha.dim</Name>
+      <FullPath>Fecha.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Cliente.dim</Name>
       <FullPath>Cliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Producto.dim</Name>
+      <FullPath>Producto.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Proveedor.dim</Name>
