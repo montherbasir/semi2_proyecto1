@@ -26,70 +26,70 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Di/WTXMKAwfIdLzve5JnlGpRKAA=3/10/2021 21:05:483/10/2021 19:26:48</TimeStamp>
+        <TimeStamp>gg7FThAo4t3Rwzha1nC083AoDt4=6/10/2021 16:26:453/10/2021 19:26:48</TimeStamp>
         <ID>
           <String>Seminariodos201807120</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zOJ/uv8x0aBCN7Mb9KNcgBQGy7Q=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>tsI7EeytEl/OZ1MP6rKSf+jK9r8=6/10/2021 15:15:245/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Sucursal</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Vh6CE1nVwsEc45uYtxvmTuD43Ao=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>l4eWeL6IZC12NNnrgDxw2kZJwmc=6/10/2021 15:15:365/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Region</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Nv1VZwiVtahzmvK9dExyXiAVXGg=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>2s+/fR7g9hEyPwqR14C1P2DmTro=6/10/2021 15:17:025/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Vendedor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>lAyGKuZATi0dUkYjySN6A/A5rG8=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>WaQ59BMrO4UBxJYMwr8Vkgq/Q94=6/10/2021 15:17:025/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Fecha</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>WgBpQo6qkAXXUMNS3Y9xXu7pvGY=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>H6r1T17bpjKD0FU62noUaOQ+/Zc=6/10/2021 15:17:025/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Cliente</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dNZFxD8Dp7zewe9KIIE2ymzsZa0=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>fAD+3oWxpasjJv2AOjeMSQTJY6I=6/10/2021 15:17:015/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>Producto</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>p6S7XSh3BfcvRApnswePYViBa54=5/10/2021 19:51:535/10/2021 19:51:53</TimeStamp>
+        <TimeStamp>vWSB2pYsxTHKzReji5ddZH9ePCs=6/10/2021 15:17:015/10/2021 19:51:53</TimeStamp>
         <ID>
           <String>Proveedor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>EVyFa2cExwx3GoLDLYMlQoa3Zjc=5/10/2021 19:51:285/10/2021 19:51:288mOI2fya6QrgWvsciiuwqMyARzY=5/10/2021 19:51:285/10/2021 19:51:28</TimeStamp>
+        <TimeStamp>Sb47DJohv5HmduDefu8NC6VZRdk=6/10/2021 16:27:245/10/2021 19:51:28+VCrpzeY+DuQOlOZzGZXwck740I=6/10/2021 16:27:245/10/2021 19:51:28</TimeStamp>
         <ID>
           <String>ventas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>En27d1nlLX16zVSvKFnqt8hiVSM=5/10/2021 19:52:015/10/2021 19:51:53nNRHQ7Rj04g4T4ZX3DQdlKqSsYU=5/10/2021 19:51:535/10/2021 19:51:53</TimeStamp>
+        <TimeStamp>1n+aPuTerC6xZC0guhybJxxfFoU=6/10/2021 16:27:175/10/2021 19:51:53/YUhIjMUCjzEiayaGuQyiDE+mAU=6/10/2021 16:27:175/10/2021 19:51:53</TimeStamp>
         <ID>
           <String>Seminariodos201807120</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-10-06T01:52:08.466667Z</LastDeployed>
+  <LastDeployed>2021-10-06T22:27:37.066667Z</LastDeployed>
 </DeploymentSnapshot>
